@@ -1,0 +1,71 @@
+/* main text color #212121 */
+/* secondary text color #757575 */
+/* blue #2196F3 */
+/* white #FFFFFF */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --blue-color: #2196F3;
+    --white-color: #FFFFFF
+}
+
+body {
+    color: var(--primary-text-color);
+}
+
+.logo-first {
+    color: var(--blue-color);
+}
+
+.logo {
+    color: #000000
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.site-nav .link  {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--blue-color);
+}
+
+.kontacts .link{
+    color: var(--primary-text-color);
+}
+
+.kontacts .link:hover,
+.kontacts .link:focus {
+    color: var(--blue-color);
+}
+
+footer {
+    background-color: #2F303A;
+}
+
+.logo-footer {
+    color: var(--white-color);
+}
+.logo-footer:hover,
+.logo-footer:focus {
+    color: var(--primary-text-color);
+}
+
+.footer-address .link-address {
+    color: var(--white-color)
+}
+
+.footer-address .link {
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+

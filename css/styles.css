@@ -13,6 +13,15 @@ body {
     color: var(--primary-text-color);
 }
 
+/* Hero styles */
+
+.hero,
+.footer {
+    background-color: #2F303A;
+}
+
+/* Header styles */
+
 .logo-first {
     color: var(--blue-color);
 }
@@ -48,9 +57,7 @@ body {
     color: var(--blue-color);
 }
 
-footer {
-    background-color: #2F303A;
-}
+/* footer styles */
 
 .logo-footer {
     color: var(--white-color);
@@ -64,8 +71,16 @@ footer {
     color: var(--white-color)
 }
 
+.footer-address .link-address:hover {
+    color: var(--blue-color);
+}
+
 .footer-address .link {
     color: rgba(255, 255, 255, 0.6);;
 }
 
+.footer-address .link:hover {
+    color: var(--blue-color);
+    ;
+}
 

@@ -11,13 +11,7 @@
 
 body {
     color: var(--primary-text-color);
-}
-
-/* Hero styles */
-
-.hero,
-.footer {
-    background-color: #2F303A;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header styles */
@@ -35,11 +29,11 @@ body {
     color: var(--primary-text-color);
 }
 
-.list {
+ul {
     list-style: none;
 }
 
-.site-nav .link  {
+.site-nav .link {
     color: var(--title-text-color);
 }
 
@@ -48,7 +42,7 @@ body {
     color: var(--blue-color);
 }
 
-.kontacts .link{
+.kontacts .link {
     color: var(--primary-text-color);
 }
 
@@ -57,7 +51,56 @@ body {
     color: var(--blue-color);
 }
 
-/* footer styles */
+/* Hero styles */
+
+.hero,
+.footer {
+    background-color: #2F303A;
+}
+
+.hero-title{
+    color: var(--white-color);
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero-btn {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Title color */
+
+.features-list .title,
+.features-title,
+.about-title,
+.team-title,
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+/* Portfolio styles */
+
+.btn-list .button {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+.btn-list .button:hover,
+.btn-list .button:focus {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+
+.img-list .title {
+    color: var(--title-text-color);
+}
+
+.img-list .text {
+    color: var(--primary-text-color);
+}
+
+/* Footer styles */
 
 .logo-footer {
     color: var(--white-color);

@@ -192,20 +192,20 @@ body {
   font-style: normal;
 }
 
-.link-address {
-  color: var(--white-color);
-}
-
-.link-address:hover,
-.link-address:focus {
-  color: var(--accent-color);
-}
-
 .footer-item .link {
   color: var(--footer-address-color);
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+
+.footer-item .link-address {
+    color: var(--white-color);
+}
+
+.link-address:hover,
+.link-address:focus {
+    color: var(--accent-color);
 }
 
 .footer-item .link:hover,

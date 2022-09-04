@@ -200,12 +200,12 @@ body {
 }
 
 .footer-item .link-address {
-    color: var(--white-color);
+  color: var(--white-color);
 }
 
 .link-address:hover,
 .link-address:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .footer-item .link:hover,
